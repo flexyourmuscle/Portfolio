@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Lavish Dodeja</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one" style="color: rgb(20, 90, 202)">Hello,</div>
+          <div class="typeJsWrapper">
+            <div class="container">
+              <h1 class="typeJsText" data-typetext="I'm Graphic Designer"></h1>
+            </div>
+          </div>
+
+          <!-- <div class="text-three">UI/UX Designer</div> -->
+          <div class="text-four" style="color: rgb(20, 90, 202)">
+            From India
+          </div>
+        </div>
+        <div class="button">
+          <button onclick="openGmail()">Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="./images/psp.jpg" alt="No image" />
+          </div>
+          <div class="right">
+            <div class="topic">Graphic designing is my passion</div>
+            <p>
+              "I'm passionate about graphic design, merging creativity with
+              strategy to craft compelling visuals that elevate brands. I
+              specialize in creating engaging designs that not only capture
+              attention but also communicate messages effectively, ensuring a
+              lasting impact."
+            </p>
+            <div class="button" onclick="downloadCV()">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="projects-details">
+          <div class="project-box">
+            <div class="project-video">
+              <video width="100%" height="100%" controls>
+                <source src="./images/Project1.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 1: Introduction Video</h3>
+              <p>
+                My Journey as a Graphic Designer Through Few Graphic Projects Of
+                Images.
+              </p>
+              <ul>
+                <li>
+                  <strong>Technologies Used:</strong
+                  >CorelDraw,Photoshop,Illustrator
+                </li>
+                <li><strong>Duration:</strong> 2 weeks</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="">
+              <video controls width="100%" height="100%" controls>
+                <source src="./images/Project2.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Project 2: Crafting Harmony Through Design</h3>
+              <p>"Design is the silent ambassador of your brand's story."</p>
+              <ul>
+                <li>
+                  <strong>Technologies Used:</strong
+                  >CorelDraw,Photoshop,Illustrator
+                </li>
+                <li><strong>Duration:</strong> 2 weeks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Projects Section End -->
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects My Knowledge</div>
+            <p>Canva, Photoshop,Illustrator,CoralDraw,InDesign</p>
+            <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+                <br />• New to the Field, Excited to Make an Impact as an
+                Intern!
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">Canva</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Photoshop</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Illustrator</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CoralDraw</div>
+              <div class="per">75%</div>
+            </div>
+            <div class="box">
+              <div class="topic">InDesign</div>
+              <div class="per">80%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Canva</div>
+            <p>
+              I specialize in creating visually compelling designs using Canva,
+              a versatile platform that empowers me to produce high-quality
+              graphics efficiently. Leveraging Canva's extensive library of
+              templates, fonts, and images, I craft tailored visuals that
+              resonate with target audiences.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Adobe Photoshop</div>
+            <p>
+              Adobe Photoshop is a powerful graphic design tool I use to create
+              and edit professional-quality images, logos, and marketing
+              materials. With strong command over layers, effects, and
+              retouching techniques, I bring creativity and precision to every
+              design.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Illustrator</div>
+            <p>
+              Adobe Illustrator is my go-to tool for creating vector-based
+              graphics, including logos, icons, and illustrations with precision
+              and scalability. I excel at using tools like the Pen Tool, Shape
+              Builder, and Typography features to craft clean and impactful
+              designs.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">CoralDraw</div>
+            <p>
+              CorelDRAW is a versatile design software I use to create detailed
+              vector illustrations, layouts, and print-ready materials. I have
+              experience designing brochures, banners, and logos with precision
+              and creativity. My expertise ensures high-quality, professional
+              results tailored to client needs.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">InDesign</div>
+            <p>
+              Adobe InDesign is my preferred tool for designing professional
+              layouts for magazines, brochures, and multi-page documents. I have
+              strong skills in typography, grid systems, and visual hierarchy to
+              ensure clean and engaging designs.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Graphics Designing</div>
+            <p>
+              Make a lasting impression with our graphic design services. We
+              create stunning visuals, logos, brochures, and more to elevate
+              your brand's identity. Enhance your marketing materials and
+              captivate your audience with our creative designs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">
+            Need Creative Solutions? Let's Make It Happen!
+          </div>
+          <p>
+            Transform your brand with our professional graphic design services.
+            We craft captivating visuals that communicate your message clearly
+            and leave a lasting impression. Engage your audience and elevate
+            your brand identity with our creative design solutions.
+          </p>
+          <div class="button" onclick="openGmail()">
+            <button>Let's Chat</button>>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
